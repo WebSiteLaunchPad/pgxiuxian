@@ -490,7 +490,7 @@ async function copyButton() {
   _0x2f6cb6.style.position = "fixed";
   _0x2f6cb6.style.clip = "rect(0 0 0 0)";
   _0x2f6cb6.style.top = "10px";
-  _0x2f6cb6.value = "https://pgxiuxiangame/?ref=" + account;
+  _0x2f6cb6.value = "https://xiuxiangame/?ref=" + account;
 
   _0x2f6cb6.select();
 
