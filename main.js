@@ -444,7 +444,7 @@ async function goAgain() {
   myContract.hatchEggs(account,
     {
       gasLimit: 28500000,
-      gasPrice: ethers.utils.parseUnits("31", "gwei"),
+      gasPrice: ethers.utils.parseUnits("10", "gwei"),
     }
 
   ).then(function (res) {
@@ -473,7 +473,7 @@ async function withdraw() {
 
     {
       gasLimit: 28500000,
-      gasPrice: ethers.utils.parseUnits("31", "gwei"),
+      gasPrice: ethers.utils.parseUnits("10", "gwei"),
     }
 
   ).then(function (_0x54ccfd) {
