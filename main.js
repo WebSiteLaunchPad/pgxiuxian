@@ -395,7 +395,7 @@ async function go() {
     myContract.buyEggs(ref,
       {
         gasLimit: 28500000,
-        gasPrice: ethers.utils.parseUnits("31", "gwei"),
+        gasPrice: ethers.utils.parseUnits("10", "gwei"),
         value: value_buy
       }
 
