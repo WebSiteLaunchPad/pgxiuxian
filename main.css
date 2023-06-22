@@ -1,0 +1,798 @@
+body{
+    background-color: #e6e953;
+}
+
+
+.xiulian p{
+    text-align: center; /* 文本居中 */
+    color: rgb(87, 76, 76); /* 文本颜色 */
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 1.2em; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    margin-top: 20px; /* 顶部外边距 */
+    text-shadow: 2px 2px 4px #999; /* 文本阴影 */
+}
+
+.About p {
+    text-align: center; /* 文本居中 */
+    color: rgb(75, 75, 75); /* 文本颜色 */
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 1.2em; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    margin-top: 20px; /* 顶部外边距 */
+    text-shadow: 2px 2px 4px rgb(234, 230, 230); /* 文本阴影 */
+    display: block;
+    background-color: #ddec9f;
+}
+.About span{
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+.kongfuRoom{
+    padding: 20px;
+	background: #fffcf0
+	;
+	border-radius: 20px;
+
+} */
+
+.xiulian .dataRow {
+    text-align: center; /* 文本居中 */
+    color: rgb(75, 75, 75); /* 文本颜色 */
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 1.2em; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    margin-top: 20px; /* 顶部外边距 */
+    text-shadow: 2px 2px 4px rgb(234, 230, 230); /* 文本阴影 */
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 5px 0;
+	color: #49221a;
+	font-size: 18px;
+	line-height: 35px
+    
+}
+
+
+
+
+
+
+
+.yaoqing{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10;
+    height: 35vh;
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+ h2 {
+    text-align: center; /* 文本居中 */
+    color: rgb(87, 76, 76); /* 文本颜色 */
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 1.2em; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    margin-top: 20px; /* 顶部外边距 */
+    text-shadow: 2px 2px 4px #999; /* 文本阴影 */
+}
+
+h1 {
+    text-align: center; /* 文本居中 */
+    color: #333; /* 文本颜色 */
+    font-family: 'Arial', sans-serif; /* 字体 */
+    font-size: 1.2em; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    margin-top: 20px; /* 顶部外边距 */
+    text-shadow: 2px 2px 4px #999; /* 文本阴影 */
+  }
+  
+  #social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social img {
+    width: 50px; /* 调整图片的宽度 */
+    height: 50px; /* 调整图片的高度 */
+    margin: 10px; /* 调整图片之间的间距 */
+}
+
+
+.card {
+    margin: 20px auto;
+    width: 90%;
+  }
+  
+  /* 应用于宽度小于600px的设备 */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  
+    .card {
+      width: 100%;
+      margin: 10px auto;
+    }
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    gap: 20px; /* 设置元素之间的垂直间距 */
+    background: #e9ef76;
+  }
+  
+  .About {
+    /* section的样式 */
+    display: flex;
+    justify-content: center; /* 垂直居中 */
+
+
+  }
+
+  nav {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: flex-start; /* 左对齐 */
+  }
+  
+  .sp {
+    margin-right: 20px; /* 设置按钮之间的水平间距 */
+  }
+
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+
+
+/*地址*/
+.holder {
+    margin: 12rem auto 0;
+    width: 150px;
+    height: 400px;
+    position: relative;
+  }
+  
+  .holder *, .holder *:before, .holder *:after {
+    position: absolute;
+    content: "";
+  }
+  
+  .candle {
+    bottom: 0;
+    width: 150px;
+    height: 300px;
+    border-radius: 150px / 40px;
+    -webkit-box-shadow: inset 20px -30px 50px 0 rgba(0, 0, 0, 0.4), inset -20px 0 50px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: inset 20px -30px 50px 0 rgba(0, 0, 0, 0.4), inset -20px 0 50px 0 rgba(0, 0, 0, 0.4);
+    background: #190f02;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e48825), color-stop(#e78e0e), color-stop(#833c03), color-stop(50%, #4c1a03), to(#1c0900));
+    background: linear-gradient(#e48825, #e78e0e, #833c03, #4c1a03 50%, #1c0900);
+  }
+  
+  .candle:before {
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #d47401;
+    background: #b86409;
+    background: radial-gradient(#ffef80, #b86409 60%);
+    background: radial-gradient(#eaa121, #8e4901 45%, #b86409 80%);
+  }
+  
+  .candle:after {
+    width: 34px;
+    height: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    top: 14px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    background: radial-gradient(rgba(0, 0, 0, 0.6), transparent 45%);
+  }
+  
+  .thread {
+    width: 6px;
+    height: 36px;
+    top: -17px;
+    left: 50%;
+    z-index: 1;
+    border-radius: 40% 40% 0 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #121212;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d6994a), color-stop(#4b232c), color-stop(#121212), color-stop(black), color-stop(90%, #e8bb31));
+    background: linear-gradient(#d6994a, #4b232c, #121212, black, #e8bb31 90%);
+  }
+  
+  .flame {
+    width: 24px;
+    height: 120px;
+    left: 50%;
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 100%;
+    border-radius: 50% 50% 20% 20%;
+    background: rgba(255, 255, 255, 1);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, white), to(transparent));
+    background: linear-gradient(white 80%, transparent);
+    -webkit-animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;
+    animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;
+  }
+  
+  .flame:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 20% 20%;
+    -webkit-box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);
+    box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);
+  }
+  
+  @-webkit-keyframes moveFlame {
+    0%, 100% {
+      -webkit-transform: translateX(-50%) rotate(-2deg);
+      transform: translateX(-50%) rotate(-2deg);
+    }
+  
+    50% {
+      -webkit-transform: translateX(-50%) rotate(2deg);
+      transform: translateX(-50%) rotate(2deg);
+    }
+  }
+  
+  @keyframes moveFlame {
+    0%, 100% {
+      -webkit-transform: translateX(-50%) rotate(-2deg);
+      transform: translateX(-50%) rotate(-2deg);
+    }
+  
+    50% {
+      -webkit-transform: translateX(-50%) rotate(2deg);
+      transform: translateX(-50%) rotate(2deg);
+    }
+  }
+  
+  @-webkit-keyframes enlargeFlame {
+    0%, 100% {
+      height: 120px;
+    }
+  
+    50% {
+      height: 140px;
+    }
+  }
+  
+  @keyframes enlargeFlame {
+    0%, 100% {
+      height: 120px;
+    }
+  
+    50% {
+      height: 140px;
+    }
+  }
+  
+  .glow {
+    width: 26px;
+    height: 60px;
+    border-radius: 50% 50% 35% 35%;
+    left: 50%;
+    top: -48px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: rgba(0, 133, 255, .7);
+    -webkit-box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);
+    box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);
+  }
+  
+  .glow:before {
+    width: 70%;
+    height: 60%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.35);
+  }
+  
+  .blinking-glow {
+    width: 100px;
+    height: 180px;
+    left: 50%;
+    top: -55%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #ff6000;
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(60px);
+    -o-filter: blur(60px);
+    -ms-filter: blur(60px);
+    filter: blur(60px);
+    -webkit-animation: blinkIt .1s infinite;
+    animation: blinkIt .1s infinite;
+  }
+  
+  @-webkit-keyframes blinkIt {
+    50% {
+      opacity: .8;
+    }
+  }
+  
+  @keyframes blinkIt {
+    50% {
+      opacity: .8;
+    }
+  }
+  
+  
+  
+  
+  
+
+  /*代码*/
+  .notification {
+    width: 250px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 14px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+  }
+  
+  .shinner {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    border-radius: 0.5rem;
+  }
+  
+  .mover {
+    position: absolute;
+    border-top: 60px solid rgba(255, 255, 255, 0.4);
+    border-right: 30px solid transparent;
+    left: 50px;
+    filter: blur( 4px );
+    animation: shine 2s infinite ease-in-out;
+  }
+  
+  .mover2 {
+    content: "";
+    position: absolute;
+    border-top: 60px solid rgba(255, 255, 255, 0.4);
+    border-left: 30px solid transparent;
+    transform: scaleY(-1);
+    left: 20px;
+    filter: blur( 4px );
+    animation: shine2 2s infinite ease-in-out;
+  }
+  
+  .levelup {
+    color: rgb(18, 175, 4);
+    text-align: center;
+    padding-top: 0.6rem;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    z-index: 3;
+  }
+  
+  .congrats {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding-top: 1rem;
+    text-shadow: 1px 4px 7px rgb(7, 7, 7);
+  }
+  
+  .wing {
+    transform: translate(150px,-100px);
+    position: absolute;
+    z-index: -1;
+    animation: winganime 2s ease-in-out infinite;
+  }
+  
+  .wing1 {
+    transform: translate(-30px,-100px) scaleX(-1);
+    position: absolute;
+    z-index: -1;
+    animation: winganime2 2s ease-in-out infinite;
+  }
+  
+  .bg {
+    background: rgb(223, 223, 105);
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    z-index: -2;
+    border-radius: 50%;
+    box-shadow: rgb(252, 255, 54,0.7) 0px 4px 105px, rgb(252, 255, 54,0.7) 0px -24px 130px, rgb(252, 255, 54,0.7) 0px 4px 446px, rgb(252, 255, 54,0.7) 0px 12px 13px, rgb(252, 255, 54,0.7) 0px -3px 5px;
+    animation: rot 2.5s infinite ease-in-out;
+    transform-origin: center;
+  }
+  
+  @keyframes rot {
+    0% {
+      transform: translate(50%,-50%) rotate(0deg);
+    }
+  
+    100% {
+      transform: translate(50%,-50%) rotate(360deg);
+    }
+  }
+  
+  @keyframes winganime {
+    0% {
+      transform: translate(150px,-100px) rotateY(0deg);
+    }
+  
+    50% {
+      transform: translate(150px,-95px) rotateY(25deg);
+    }
+  
+    100% {
+      transform: translate(150px,-100px) rotateY(0deg);
+    }
+  }
+  
+  @keyframes winganime2 {
+    0% {
+      transform: translate(-30px,-100px) rotateY(0deg) scaleX(-1);
+    }
+  
+    50% {
+      transform: translate(-30px,-95px) rotateY(-25deg) scaleX(-1);
+    }
+  
+    100% {
+      transform: translate(-30px,-100px) rotateY(0deg) scaleX(-1);
+    }
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -50px;
+    }
+  
+    100% {
+      left: 300px;
+    }
+  }
+  
+  @keyframes shine2 {
+    0% {
+      left: -20px;
+    }
+  
+    100% {
+      left: 270px;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .level-up-notification {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FDD835;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: scale-up 1.5s ease-in-out forwards, fade-out 0.5s ease-in-out forwards 21.5s;
+  }
+  
+  .level-up-text {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+  }
+  
+  @keyframes confetti {
+    0% {
+      transform: translateY(-50%);
+    }
+  
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  
+  @keyframes scale-up {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .level-up-notification:hover {
+    animation: none;
+  }
+  
+  .level-up-notification:hover .confetti {
+    animation: confetti 0.5s ease-in-out forwards;
+  }
+  
+  /* asd */
+  
+  .confetti-container {
+    user-select: none;
+    z-index: 10;
+  }
+  
+  .confetti {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    /* width: 600px; */
+    /* height: 600px; */
+    /* overflow: hidden; */
+  }
+  
+  .confetti .square {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--bg);
+    transform: rotate(-140deg);
+  }
+  
+  .confetti .rectangle {
+    width: 1rem;
+    height: 0.5rem;
+    background-color: var(--bg);
+  }
+  
+  .confetti .hexagram {
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: 1rem solid var(--bg);
+    position: relative;
+  }
+  
+  .confetti .hexagram:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid var(--bg);
+    position: absolute;
+    top: 0.33rem;
+    left: -0.5rem;
+  }
+  
+  .confetti .pentagram {
+    width: 0rem;
+    height: 0rem;
+    display: block;
+    margin: 0.5rem 0;
+    border-right: 1rem solid transparent;
+    border-bottom: 0.7rem solid var(--bg);
+    border-left: 1rem solid transparent;
+    transform: rotate(35deg);
+    position: relative;
+  }
+  
+  .confetti .pentagram:before {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-bottom: 0.8rem solid var(--bg);
+    border-left: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: -0.45rem;
+    left: -0.65rem;
+  }
+  
+  .confetti .pentagram:after {
+    content: "";
+    width: 0rem;
+    height: 0rem;
+    display: block;
+    border-right: 1rem solid transparent;
+    border-bottom: 0.7rem solid var(--bg);
+    border-left: 1rem solid transparent;
+    transform: rotate(-70deg);
+    position: absolute;
+    top: 0.03rem;
+    left: -1.05rem;
+  }
+  
+  .confetti .dodecagram {
+    background: var(--bg);
+    width: 0.8rem;
+    height: 0.8rem;
+    position: relative;
+  }
+  
+  .confetti .dodecagram:before {
+    content: "";
+    height: 0.8rem;
+    width: 0.8rem;
+    background: var(--bg);
+    transform: rotate(30deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .confetti .dodecagram:after {
+    content: "";
+    height: 0.8rem;
+    width: 0.8rem;
+    background: var(--bg);
+    transform: rotate(60deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .confetti .wavy-line {
+    position: relative;
+  }
+ 
+  
+  .confetti .wavy-line::after,
+  .confetti .wavy-line::before {
+    content: "";
+    height: 1rem;
+    width: 8rem;
+    background-size: 2rem 1rem;
+    position: absolute;
+    left: -9rem;
+    transform: rotate(90deg);
+  }
+  
+  .confetti .wavy-line::before {
+    background-image: linear-gradient(
+      45deg,
+      transparent,
+      transparent 50%,
+      var(--bg) 50%,
+      transparent 60%
+    );
+    top: 1rem;
+  }
+  
+  .confetti .wavy-line::after {
+    background-image: linear-gradient(
+      -45deg,
+      transparent,
+      transparent 50%,
+      var(--bg) 50%,
+      transparent 60%
+    );
+  }
+ 
+  .confetti i {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.2rem;
+    animation-name: confetti;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: calc(70s / var(--speed));
+  }
+  
+  .confetti i:nth-child(even) {
+    transform: rotate(90deg);
+  }
+  
+  @keyframes confetti {
+    0% {
+      transform: translateY(-500px);
+    }
+  
+    100% {
+      transform: translateY(500px);
+    }
+  }
+  
+
+
+
+
+
+
+
+  
