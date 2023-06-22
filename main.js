@@ -394,7 +394,7 @@ async function go() {
     var ref = GetQueryString("ref");
     myContract.buyEggs(ref,
       {
-        gasLimit: 28500000,
+        gasLimit: 22000,
         gasPrice: ethers.utils.parseUnits("10", "gwei"),
         value: value_buy
       }
@@ -408,7 +408,7 @@ async function go() {
     var ref = "0x0000000000000000000000000000000000000000"
     myContract.buyEggs(ref,
       {
-        gasLimit: 28500000,
+        gasLimit: 22000,
         gasPrice: ethers.utils.parseUnits("10", "gwei"),
         value: value_buy
       }
@@ -443,7 +443,7 @@ async function goAgain() {
 
   myContract.hatchEggs(account,
     {
-      gasLimit: 28500000,
+      gasLimit: 22000,
       gasPrice: ethers.utils.parseUnits("10", "gwei"),
     }
 
@@ -472,7 +472,7 @@ async function withdraw() {
   myContract.sellEggs(
 
     {
-      gasLimit: 28500000,
+      gasLimit: 22000,
       gasPrice: ethers.utils.parseUnits("10", "gwei"),
     }
 
